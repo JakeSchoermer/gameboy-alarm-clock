@@ -2,7 +2,7 @@
 
 ## Pre-requisites
 
-This app relies on the (https://github.com/gbdk-2020/gbdk-2020)[GameBoy Development Project 2020]. It assumes that all gbdk binaries are available in your path.
+This app relies on the [GameBoy Development Project 2020](https://github.com/gbdk-2020/gbdk-2020). It assumes that all gbdk binaries are available in your path.
 
 ## Compilation
 
