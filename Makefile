@@ -13,4 +13,7 @@ make.bat: Makefile
 	$(CC) -o bin/$@ $<
 
 clean:
-	rm -f bin/*.o bin/*.lst bin/*.map bin/*.gb bin/*~ bin/*.rel bin/*.cdb bin/*.ihx bin/*.lnk bin/*.sym bin/*.asm bin/*.noi
+	rm -f bin/*.o bin/*.lst bin/*.map bin/*.gb bin/*~ bin/*.rel bin/*.cdb bin/*.ihx bin/*.lnk bin/*.sym bin/*.asm bin/*.noi bin/*.sav
+
+run:
+	make && ./emulicious/Emulicious.jar bin/alarm_clock.gb -scale 4
